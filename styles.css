@@ -1,0 +1,520 @@
+*{
+    margin:0;
+    padding:0;
+}
+.btn{
+    font-size:1rem;
+    margin:2px 2px;
+    
+    padding: 2px;
+    color:white;
+    background-color:green;
+    border-radius:10px;
+    box-shadow:3px 3px 3px linear-gradient(to right,blue,red);
+    text-align:center;
+
+}
+header {
+    
+    color: #fff;
+    position: sticky;
+    top: 0;
+    transition-duration: 3s;
+    transition-property:all;
+    z-index: 1000;
+    box-shadow: 5px 4px 0px  black;
+}
+.footer p {
+    margin: 10px 0 0;
+    font-size: 16px;
+}
+
+.fp{
+    color:rgb(3, 162, 248);
+    font-size:1.3rem;
+    text-shadow:2px 2px 2px red;
+    font-weight:bold;
+}
+
+footer {
+    height:100px;
+    background:transparent;
+    backdrop-filter:invert(20%);
+    
+    
+    text-align: center;
+
+    color:black;
+
+    width: 100%;
+}
+footer a:hover{
+    transform:translateY(20px);
+    color:red;
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+
+}
+footer a {
+    font-size:1.5rem;
+text-decoration:none;
+font-weight:bold;
+color:aqua;
+margin:5px 7px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+hr{
+    margin-top:29px;
+}
+
+.btn:hover{
+ transform:translatey(-2px);
+ color:rgb(14, 195, 227);
+ cursor:pointer;
+ 
+}
+body{
+    background-image:url(dd.webp);
+    background-repeat:no repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    height:120px;
+    position:sticky;
+    background-color:transparent;
+    backdrop-filter:blur(90px);
+    
+}
+nav ul{
+    margin:20px;
+    display:flex;
+    justify-content:center;
+    
+}
+main{
+    margin-top:95px;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 0 23px;
+}
+.rightsection{
+    height:100%;
+    width:100%;
+    display:flex;
+}
+.mp1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:24px;
+    font-size:x-large;
+    color:black;
+}
+.hhh{
+    font-size:2.4rem;
+    
+}
+.text-color{
+    font-size:0.89rem;
+    color:blueviolet;
+    
+}
+.hahaha{
+    font-size:0.89rem;
+    color:blueviolet;
+    margin-top:120px;
+    
+}
+.p1{
+    margin-top:20px;
+    border:0.000001px solid black;
+    height:204px;
+    margin-top:20px;
+    margin-bottom:50px;
+    position:relative;
+
+    box-shadow:5px 5px 0px white;
+    border-radius:20px;
+    backdrop-filter:blur(250px);
+}
+.p1:hover{
+    transform:translateY(-18px);
+}
+.pro{
+    font-size:0.69em;
+    color:blueviolet;
+    margin-top:120px;
+}
+.projects{
+    margin-top:20px;
+}
+.left{
+    margin-top:20px;
+    font-size:2rem;
+    font-weight:bold;
+    text-shadow:1.5999px 1.399999999999px 4px rgb(244, 54, 7);
+    color:white;
+    letter-spacing:1.5px;
+    
+    word-spacing:11px;
+    font-family: ‘Allerta Stencil’;
+    font-size: 5rem; 
+    
+}
+.pp1{
+    font-size:0.78rem;
+    margin:10px;
+    
+    padding:3px;
+    
+    
+}
+.bx:hover{
+    
+    transform:translateX(-140px);
+    color:rgb(15, 195, 15);
+    background-color:black;
+    width:100%;
+    align-items: center;
+    
+    padding:20px;
+}
+.h11{
+    margin: 0 154px;
+    margin-top:120px;
+    font-size:1rem;
+    color:rgb(176, 9, 248);
+}
+.html2{
+    height:250px;
+    border-radius:30px;
+    border:0.00000001px  black;
+    background-color:transparent;
+    backdrop-filter:blur(250px);
+    font-weight:bold;
+    margin:0 150px;
+    box-shadow:3px 3px 0px ;
+    margin-bottom:50px;
+    display:flex;
+    border:2px solid black;
+    
+
+}
+
+.html2:hover{
+    transform:translatey(-10px);
+
+}
+.hell{
+    font-size:2rem;
+    font-weight:bold;
+    filter:drop-shadow(2px 2px 2px black);
+    color:rgb(24, 185, 221);
+}
+input{
+    font-size:1rem;
+    
+}
+input .message{
+    font-size:3rem;
+}
+.abp{
+    padding:50px;
+    font-weight:2rem;
+    background-color:transparent;
+    backdrop-filter:blur(250px);
+    font-weight:bold;
+    font-size:1.1rem;
+}
+.html2:hover{
+    background-color:black;
+    color:greenyellow;
+}
+
+.abtl{
+    width:100%;
+    color:white;
+    margin:20px 30px;
+    backdrop-filter: blur(10px);
+}
+.projee{
+    padding:20px;
+}
+.mp1{
+    font-size:1.4rem;
+    color:rgb(8, 241, 217);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#About{
+    
+    
+    border:0.00000000001px solid transparent;
+}
+#Skills{
+    
+    
+    
+    border:10px solid transparent;
+}
+#Project{
+    
+    
+    
+    border:10px solid transparent;
+}
+.abtr{
+    
+    width:320px;
+    height:auto;
+    
+}
+.at{
+    margin:0 154px;
+    margin-bottom:20px;
+    font-size:2.4rem;
+}
+.html1{
+    font-weight:bold;
+    font-size:22px;
+    color:rgb(12, 229, 193);
+}
+.box{
+    justify-content:space-around;
+    margin-top:20px;
+    padding:2px;
+    border:1px solid transparent;
+    height:39svh;
+    display:flex;
+    
+    
+    border-radius:26px;
+}
+.fa-html5{
+    font-size:40px;
+    border-radius:50px;
+    margin:0 5px;
+    box-shadow:4px 3px 0px ;
+}
+.fa-wrench{
+    font-size:40px;
+    margin:0 5px;
+}
+.conp{
+    margin:0px 69px;
+    font-size:0.8rem;
+}
+.fa-chalkboard{
+    font-size:40px;
+    
+    margin:0 5px;
+}
+.con{
+    margin: 10px 128px;
+    box-shadow:6px 6px 0;
+    border-radius:20px;
+    background-color:blue;
+    border:2px solid transparent;
+    height:31svh;
+}
+
+.hhh{
+    margin:0 129px;
+}
+ .bx{
+    border:1px solid black;
+    width:30%;
+    color:white;
+    background-color:transparent;
+    backdrop-filter:blur(250px);
+    font-weight:bold;
+    border-radius:25px;
+    margin:0 2px;
+    padding:4px;
+    box-shadow:10px 10px 0px  whitesmoke;
+    height:39svh;
+    overflow-x:auto;
+}
+.secondsection{
+    max-width:80vw;
+    margin:auto;
+    
+    font-size: 1.19rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li a{
+    text-decoration:none;
+    
+    
+    color:rgb(244, 241, 241);
+    background-color:rgb(161, 84, 84);
+    
+    border:0.78px solid rgb(252, 250, 250);
+    padding:4px;
+    border-radius:9px;
+    
+
+}
+nav ul li a:hover{
+    color:black;
+    border:3px solid black;
+    background-color:rgb(126, 65, 184);
+    font-size:1.03em;
+    
+}
+#element{
+    color:rgb(25, 38, 224);
+}
+.firstsection{
+    margin-top:29px;
+    display:flex;
+    justify-content:space-around;
+    margin:10px 0;
+}
+.firstsection div{
+    width:30%;
+}
+
+.rightsection img{
+    width:99%;
+    
+}
+.leftsection{
+    font-size:3rem;
+    font-variant:small-caps;
+    margin:50px;
+    background:transparent;
+    border-radius:20px;
+    border:2px solid transparent;
+    backdrop-filter:blur(30svh);
+    box-shadow:4px 4px 0px rgb(251, 246, 246);
+    border-bottom:30px;
+    background-color:transparent;
+    backdrop-filter:blur(250px);
+    color:black;
+    padding:28px;
+}
+
+
+.btn:active{
+    background-color:azure;
+    color:black;
+}
+.ts{
+    font-size:3.5rem;
+    color:blue;
+    text-shadow:3px 2.4px 0px whitesmoke;
+    font-family: ‘Allerta Stencil’;
+}
+#name{
+    text-align:center;
+}
+label{
+    font-size:25px;
+    letter-spacing:0.001rem;
+    font-weight:bold;
+}
+
+#contact{
+    background:transparent;
+    backdrop-filter:blur(250px);
+    border-radius:20px;
+    margin:0px 120px;
+    box-shadow:7px 7px 0px white;
+    margin-bottom:50px;
+}
+#contact-form{
+    padding:30px;
+}
+.Blue{
+    color:bisque
+}
+.ha{
+    color:rgb(12, 205, 205)
+}
+
+hr{
+    margin-bottom:50px;
+}
+.img{
+    width:100%;
+    height:100%;
+    position:relative;
+    margin:auto;
+
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+#message{
+    text-align:center;
+    
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+#email{
+    text-align: center;
+    text-transform: unset;
+
+}
+#email:hover{
+    font-display:fallback ;
+
+}
+button:active{
+    transform:translateY(5px);
+    background-color:rgb(81, 81, 219);
+    color:black;
+}
+form button {
+    display: block;
+    width:100px;
+    padding: 10px;
+    background:black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+img{
+    filter: drop-shadow(0 0 0.75rem white);
+}
+.conp{
+    color:rgb(204, 0, 255);
+    margin:0 129px;
+    margin-top:120px;
+}
+
+
+.right{
+    margin-top:65px;
+}
