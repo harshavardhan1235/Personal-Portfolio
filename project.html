@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    
+    color: #333;
+}
+
+.story-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    color:black;
+    background:transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter:invert(20%);
+    border-radius: 8px;
+}
+
+.story-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.story-title {
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow:5px 5px 0px black;
+    color: yellow;
+}
+
+.story-subtitle {
+    font-size: 1.2em;
+    color: chocolate;
+}
+
+.story-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.story-content p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.story-content p:first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    float: left;
+    margin-right: 10px;
+    line-height: 1;
+}
+
+@media (max-width: 768px) {
+    .story-container {
+        padding: 15px;
+    }
+
+    .story-title {
+        font-size: 2em;
+    }
+
+    .story-subtitle {
+        font-size: 1em;
+    }
+}
+
+</style>
+<body>
+    <div class="story-container">
+        <div class="story-header">
+            <h1 class="story-title">Event Calender</h1>
+            
+       
+        <div class="story-content">
+            <p><br>Objective:<br>
+                The primary goal of this project was to create a functional event calendar application using C++. The application was designed to help users keep track of events and important dates efficiently.
+                
+                <br><br>Features:<br>
+                <br>Add Event:<br> Users could add events with details such as the event name, date, time, and description.
+                <br>Delete Event:<br> Functionality to delete events that are no longer needed.
+                <br>Edit Event:<br> Users could edit the details of an existing event.
+                <br>View Events:<br> Display all events on a particular date or within a date range.
+                <br>Search Events:<br> Search for events based on keywords or dates.
+                <br><br>Technologies Used:<br>
+                <br>Programming Language:<br> C++
+                <br>Data Storage:<br> The application used file handling for storing event data persistently. Events were saved in a file, which could be read and modified as needed.
+                <br><br>Key Concepts:<br>
+                <br>File Handling:<br> For reading from and writing to files to ensure data persistence.
+                <br>Classes and Objects:<br> Utilized object-oriented programming concepts for structuring the application.
+                <br>Data Structures:<br> Used appropriate data structures such as arrays or linked lists to manage the events efficiently.
+                <br><br>Challenges:<br>
+                <br>File Handling Complexity:<br> Ensuring data integrity during read/write operations.
+                <br>User Interface:<br> Creating a simple and intuitive console-based user interface.
+                <br>Error Handling:<br> Implementing robust error handling to manage invalid inputs and file operation errors.
+                <br><br>Outcome:<br>
+                The project successfully demonstrated the use of C++ for developing a real-world application. It provided hands-on experience in file handling, object-oriented programming, and basic data structure manipulation, laying a strong foundation for future software development endeavors.</p>
+        </div>
+    </div>
+</body>
+</html>

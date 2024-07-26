@@ -32,7 +32,6 @@
                 
                 
                 
-                <div class="btn">View my work</div>
             </div>
             
             
@@ -93,12 +92,12 @@
                 <div class="p1">
                     <h3 class="mp1"><center>Project 1</center></h3>
                     <p class="projee">Developed an event calendar in C++ that allows users to schedule, manage, and view events efficiently. The project showcases my skills in implementing data structures and applying OOP concepts. Key features include event addition, deletion, and detailed viewing options. This project reflects my ability to design and execute complex software solutions.</p>
-
+                    <button id="projectButton" class="btn">View More</button>
                 </div>
                 <div class="p1">
                     <h3 class="mp1"><center>Project 2</center></h3>
                     <p class="projee">Developed the front-end of an e-commerce web page, focusing on creating a user-friendly and visually appealing interface. Utilized HTML, CSS, and JavaScript to build responsive and interactive elements. Key features include product listings, shopping cart functionality, and a seamless checkout process. This project highlights my proficiency in front-end development and my ability to create engaging user experiences.</p>
-
+                    <button id="projectButton1" class="btn">View More</button>
                 </div>
             </div>
             </section>
@@ -123,7 +122,20 @@
         
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
     <script src="script.js"></script>
+    <script>
+        document.getElementById('projectButton').addEventListener('click', function() {
+    window.open('project.html', '_blank');
+});
+
+    </script>
+     <script>
+        document.getElementById('projectButton1').addEventListener('click', function() {
+    window.open('project2.html', '_blank');
+});
+
+    </script>
 </body>
 <footer>
     
